@@ -15,10 +15,12 @@ class PortofolioController extends Controller
 
     public function store(StoreFormRequest $request)
     {
-        Lead::create($request->validated());
+        $lead = Lead::create($request->validated());
 
-        $receipt  = '08561655028';
-        $template = 'Terimakasih telah menghubungi kami';
+        $receipt  =  $request->whatsapp;
+        $template = 'Terimakasih telah menghubungi kami
+
+Pesan Anda : ' . $request->message;
         $apiurl   = 'https://wamd0182.api-wa.my.id/api/v1/messages';
         $apikey   = 'dk_e3caa778e6a242f28c99c918b131a077';
 
@@ -35,7 +37,7 @@ class PortofolioController extends Controller
         ]);
 
         if ($response->successful()) {
-            // do something
+            $lead->update(['is_sent' => 1]);
         }
 
         return redirect()->back();

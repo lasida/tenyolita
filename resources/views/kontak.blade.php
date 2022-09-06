@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-7">
-                    <form action="{{ route('portofolio.store') }}" id="contact-form"
+                    <form action="{{ route('kontak.store') }}" id="contact-form"
                           class="contact-form needs-validation"
                           novalidate method="post">
                         @csrf
@@ -81,7 +81,7 @@
                         <p>Terima kasih telah menghubungi kami, kami akan segera menghubungi Anda.</p>
                         <span class="message__icon">
                     <img
-                        src="assets/img/icons/check.png"
+                        src={{asset("img/icons/check.png")}} 
                         width="128"
                         height="128"
                         alt="check icon"

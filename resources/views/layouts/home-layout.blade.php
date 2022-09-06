@@ -440,7 +440,7 @@
                     </ul>
                 </div>
                 <div class="navbar__action">
-                    <a href="#" class="btn btn-outline-info rounded-pill">
+                    <a href="{{route('kontak')}}" class="btn btn-outline-info rounded-pill">
                         KONTAK <span class="d-none d-sm-inline-block">KAMI</span>
                     </a>
                     <div class="lang-selector dropdown">

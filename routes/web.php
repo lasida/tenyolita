@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\PortofolioController;
+use App\Http\Controllers\KontakController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -21,19 +21,22 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/', function () {
     return view('welcome');
 })->name('welcome');
+
 Route::get('/tentang-kami', function () {
     return view('tentang-kami');
 })->name('tentang-kami');
+
 Route::get('/pelayanan', function () {
     return view('pelayanan');
 })->name('pelayanan');
 
-Route::get('/portofolio', [PortofolioController::class, 'index'])->name('portofolio');
-Route::post('/portofolio', [PortofolioController::class, 'store'])->name('portofolio.store');
+Route::get('/portofolio', function () {
+    return view('portofolio');
+})->name('portofolio');
+
+Route::get('/kontak', [KontakController::class, 'index'])->name('kontak');
+Route::post('/kontak', [KontakController::class, 'store'])->name('kontak.store');
 
 Route::get('/karier', function () {
     return view('karier');
 })->name('karier');
-Route::get('/kontak', function () {
-    return view('kontak');
-})->name('kontak');

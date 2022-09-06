@@ -6,11 +6,11 @@ use App\Http\Requests\StoreFormRequest;
 use App\Models\Lead;
 use Illuminate\Support\Facades\Http;
 
-class PortofolioController extends Controller
+class KontakController extends Controller
 {
     public function index()
     {
-        return view('portofolio');
+        return view('kontak');
     }
 
     public function store(StoreFormRequest $request)

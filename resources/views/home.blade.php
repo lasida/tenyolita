@@ -3,7 +3,41 @@
 @section('content')
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-8">
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 style="margin:0;padding: 0;">40 Orang</h3>
+                            </div>
+                            <div class="card-footer" style="background: #003865;border:none;color:#fff;">
+                                Orang yang mengisi Form
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 style="margin:0;padding: 0;">20x</h3>
+                            </div>
+                            <div class="card-footer" style="background: #1A4D2E;color:#fff;">
+                                Sistem Berhasil Membalas
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 style="margin:0;padding: 0;">20x</h3>
+                            </div>
+                            <div class="card-footer" style="background: #B20600;color:#fff;">
+                                Nomor yang tidak terkirim
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
                 <div class="card">
                     <div class="card-header">{{ __('Dashboard') }}</div>
 

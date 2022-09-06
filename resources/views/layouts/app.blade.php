@@ -9,8 +9,13 @@
 
     <title>Sintech Dashboard</title>
 
+    <!-- Jquery -->
+    <script src="{{ asset("js/vendor/jquery-3.6.0.min.js") }}"></script>
+    <!-- End Jquery -->
+    <!-- Bootstrap 5 Javascript -->
+    <script src="{{ asset("js/vendor/bootstrap.bundle.min.js") }}"></script>
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('js/app.min.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">

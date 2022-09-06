@@ -414,20 +414,19 @@
             <div class="container">
                 <a class="navbar-brand navbar__brand" href="/">
                     <img
-                        src={{asset("img/sintech-logo.png")}}
-                        srcset={{asset("img/sintech-logo@2x.png")}}
+                        src={{asset("img/sintech-logo.png")}} 
+                        srcset={{asset("img/sintech-logo@2x.png")}} 
                         width="75"
                         height="42"
-                        alt="sintech logo"
-                    />
+                        alt="sintech-logo"/>
                 </a>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item nav__item">
-                            <a class="nav-link nav__link active" href="{{route('welcome')}}">Beranda</a>
+                            <a class="nav-link nav__link" href="{{route('welcome')}}">Beranda</a>
                         </li>
                         <li class="nav-item nav__item">
-                            <a class="nav-link nav__link" href="{{route('tentang-kami')}}">Tentang kami</a>
+                            <a class="nav-link nav__link active" href="{{route('tentang-kami')}}">Tentang kami</a>
                         </li>
                         <li class="nav-item nav__item">
                             <a class="nav-link nav__link" href="{{route('pelayanan')}}">Pelayanan</a>
@@ -451,17 +450,17 @@
                             data-bs-toggle="dropdown"
                             aria-expanded="false"
                         >
-                            <img src="assets/img/lang-id.png" width="28" height="22" alt="id"/>
+                            <img src={{asset("img/lang-id.png")}} width="28" height="22" alt="id"/>
                         </button>
                         <ul class="dropdown-menu">
                             <li>
                                 <a class="dropdown-item" href="#">
-                                    <img src="assets/img/lang-id.png" width="28" height="22" alt="id"/>
+                                <img src={{asset("img/lang-en.png")}} width="28" height="22" alt="en"/>
                                 </a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="#">
-                                    <img src="assets/img/lang-en.png" width="28" height="22" alt="en"/>
+                                <img src={{asset("img/lang-id.png")}} width="28" height="22" alt="id"/>
                                 </a>
                             </li>
                         </ul>
@@ -496,7 +495,7 @@
                         <h5>KANTOR PUSAT</h5>
                         <p class="text-center">
                             Jl. HR. Rasuna Said No. 76 <br/>Pakojan Pinang, Kota Tangerang <br/>Banten -
-                            15142 <br/><br/>Telp : (021) 22292641 <br/>nfo@sintechabadi.com
+                            15142 <br/><br/>Telp : (021) 22292641 <br/>info@sintechabadi.com
                         </p>
                     </div>
                 </div>
@@ -523,8 +522,8 @@
                     <div class="widget mb-0">
                         <a href="/" class="d-inline-block">
                             <img
-                                src="assets/img/sintech-logo.png"
-                                srcset="assets/img/sintech-logo@2x.png"
+                                src={{asset("img/sintech-logo.png")}} 
+                                srcset={{asset("img/sintech-logo@2x.png")}}
                                 width="101"
                                 height="68"
                                 alt="sintech logo"

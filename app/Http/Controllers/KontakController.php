@@ -18,7 +18,10 @@ class KontakController extends Controller
         $lead = Lead::create($request->validated());
 
         $receipt  =  $request->whatsapp;
-        $template = 'Terimakasih telah menghubungi kami
+        $template = 'Hallo..
+                    Terimakasih telah menghubungi PT. Sintech Berkah Abadi.
+                    Pesan Anda sudah diterima dan akan kami balas paling lambat 1x24 jam, apabila tidak mendapatkan balasan bisa mengubungi kembali langsung ke nomor ini.
+        
 
 Pesan Anda : ' . $request->message;
         $apiurl   = 'https://wamd0182.api-wa.my.id/api/v1/messages';

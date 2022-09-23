@@ -8,7 +8,7 @@
                     <div class="col-md-4">
                         <div class="card">
                             <div class="card-body">
-                                <h3 style="margin:0;padding: 0;">40 Orang</h3>
+                                <h3 style="margin:0;padding: 0;">{{$count_all}} Orang</h3>
                             </div>
                             <div class="card-footer" style="background: #003865;border:none;color:#fff;">
                                 Orang yang mengisi Form
@@ -18,7 +18,7 @@
                     <div class="col-md-4">
                         <div class="card">
                             <div class="card-body">
-                                <h3 style="margin:0;padding: 0;">20x</h3>
+                                <h3 style="margin:0;padding: 0;">{{$count_sent}}x</h3>
                             </div>
                             <div class="card-footer" style="background: #1A4D2E;color:#fff;">
                                 Sistem Berhasil Membalas
@@ -28,7 +28,7 @@
                     <div class="col-md-4">
                         <div class="card">
                             <div class="card-body">
-                                <h3 style="margin:0;padding: 0;">20x</h3>
+                                <h3 style="margin:0;padding: 0;">{{$count_failed}}x</h3>
                             </div>
                             <div class="card-footer" style="background: #B20600;color:#fff;">
                                 Nomor yang tidak terkirim
@@ -62,7 +62,13 @@
                                     <td>{{ $value->email }}</td>
                                     <td>{{ $value->whatsapp }}</td>
                                     <td>{{ $value->city }}</td>
-                                    <td>{{ $value->is_sent }}</td>
+                                    <td>
+                                        @if($value->is_sent == 1)         
+                                            Terkirim
+                                        @else
+                                            Gagal       
+                                        @endif    
+                                    </td>
                                     <td>{{ $value->created_at }}</td>
                                 </tr>
                             @endforeach

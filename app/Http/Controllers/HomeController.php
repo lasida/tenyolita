@@ -25,7 +25,10 @@ class HomeController extends Controller
     public function index()
     {
         return view('home', [
-            'data' => Lead::all()
+            'data' => Lead::all(),
+            'count_all' => count(Lead::all()),
+            'count_sent' => count(Lead::where('is_sent', 1)->get()),
+            'count_failed' => count(Lead::where('is_sent', 0)->get())
         ]);
     }
 }

@@ -92,4 +92,11 @@
             </div>
         </div>
     </section>
+
+    <script>
+        const form = document.getElementById('contact-form');
+        document.getElementById("btn-submit").addEventListener("click", function () {
+            form.submit();
+        });
+    </script>
 @endsection

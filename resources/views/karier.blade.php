@@ -1,5 +1,10 @@
 @extends('layouts.home-layout')
 
 @section('content')
-    <h1>karier</h1>
+<section id="contact">
+        <div class="container" style="text-align:center">
+
+    <h1>We Are Hire</h1>
+</div>
+</section>
 @endsection

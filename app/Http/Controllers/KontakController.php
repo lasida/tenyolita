@@ -19,8 +19,8 @@ class KontakController extends Controller
 
         $receipt  =  $request->whatsapp;
         $template = 'Hallo..
-                    Terimakasih telah menghubungi PT. Sintech Berkah Abadi.
-                    Pesan Anda sudah diterima dan akan kami balas paling lambat 1x24 jam, apabila tidak mendapatkan balasan bisa mengubungi kembali langsung ke nomor ini.
+Terimakasih telah menghubungi PT. Sintech Berkah Abadi.
+Pesan Anda sudah diterima dan akan kami balas paling lambat 1x24 jam, apabila tidak mendapatkan balasan bisa mengubungi kembali langsung ke nomor ini.
         
 
 Pesan Anda : ' . $request->message;

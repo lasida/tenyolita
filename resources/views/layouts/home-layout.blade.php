@@ -423,19 +423,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item nav__item">
-                            <a class="nav-link nav__link" href="{{route('welcome')}}">Beranda</a>
+                            <a class="nav-link nav__link {{ (request()->is('/')) ? 'active' : '' }}" href="{{route('welcome')}}">Beranda</a>
                         </li>
                         <li class="nav-item nav__item">
-                            <a class="nav-link nav__link active" href="{{route('tentang-kami')}}">Tentang kami</a>
+                            <a class="nav-link nav__link {{ (request()->is('tentang-kami')) ? 'active' : '' }}" href="{{route('tentang-kami')}}">Tentang kami</a>
                         </li>
                         <li class="nav-item nav__item">
-                            <a class="nav-link nav__link" href="{{route('pelayanan')}}">Pelayanan</a>
+                            <a class="nav-link nav__link {{ (request()->is('pelayanan')) ? 'active' : '' }}" href="{{route('pelayanan')}}">Pelayanan</a>
                         </li>
                         <li class="nav-item nav__item">
-                            <a class="nav-link nav__link" href="{{route('portofolio')}}">Portofolio</a>
+                            <a class="nav-link nav__link {{ (request()->is('portofolio')) ? 'active' : '' }}" href="{{route('portofolio')}}">Portofolio</a>
                         </li>
                         <li class="nav-item nav__item">
-                            <a class="nav-link nav__link" href="{{route('karier')}}">Karir</a>
+                            <a class="nav-link nav__link {{ (request()->is('karier')) ? 'active' : '' }}" href="{{route('karier')}}">Karir</a>
                         </li>
                     </ul>
                 </div>
@@ -443,7 +443,7 @@
                     <a href="{{route('kontak')}}" class="btn btn-outline-info rounded-pill">
                         KONTAK <span class="d-none d-sm-inline-block">KAMI</span>
                     </a>
-                    <div class="lang-selector dropdown">
+                    <!-- <div class="lang-selector dropdown">
                         <button
                             class="btn btn-outline-info btn-sm dropdown-toggle"
                             type="button"
@@ -464,7 +464,7 @@
                                 </a>
                             </li>
                         </ul>
-                    </div>
+                    </div> -->
                     <button
                         aria-controls="navbarSupportedContent"
                         aria-expanded="false"

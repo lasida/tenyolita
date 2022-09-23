@@ -1,12 +1,12 @@
 @extends('layouts.home-layout')
 
 @section('content')
-    <section id="services" class="p-0">
+    <section id="services" class="">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 col-lg-6 col-xl-7">
                     <div class="heading text-start">
-                        <h1>PELAYANAN<br/>KAMI</h1>
+                        <h2>PELAYANAN<br/>KAMI</h1>
                     </div>
                     <p class="fs-5 text-justify">
                         Kami adalah penyedia solusi perangkat lunak pasar global, memberikan solusi bisnis

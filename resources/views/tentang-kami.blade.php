@@ -2,7 +2,41 @@
 
 @section('content')
    
+<style>
+    img{
+        width: 100%;
+    }
+</style>
 <section id="about-us" class="pb-0">
+
+        <div class="container" style="text-align:center;margin-bottom:30px;padding:20px;margin-top:40px">
+            <h3>Portofolio Kami</h3>
+            <h4 style="font-weight:400;"> Aplikasi Sasaran Kinerja Pegawai (SKP) Online, Sistem Informasi Manajemen Kepegawaian (SIMPEG), Aplikasi Arsip Pariwisata, Jasa Pembuatan Aplikasi Sistem Informasi, Aplikasi E-Goverment, Pengarsipan, Sistem Pendaftaran Online (PMB).</p>
+            <a href="#projects" style="margin-top:20px" class="btn btn-primary">Temukan Lebih Lengkap</a>
+
+            <img src={{asset("img/portofolio.png")}} srcset={{asset("img/portofolio.png")}} alt="portofolio" style="margin-top:40px"/>
+        </div>
+
+        <div class="container about">
+            <div class="row">
+                <div class="col-md-5" style="text-align:center">
+                <img src={{asset("img/sintech-big.png")}} srcset={{asset("img/sintech-big.png")}} alt="sintech-logo" style="padding:40px;max-height:300px;width:auto;text-align:center;"/>
+                </div>
+                <div class="col-md-7">
+                    <h3>About Us</h3>
+                    <p>PT. Sintech Berkah Abadi menyediakan layanan untuk berbagai jenis bisnis dalam banyak bidang. Pelanggan kami meliputi komunitas dalam masyarakat, lembaga pemerintah, perusahaan skala kecil dan menengah, perusahaan skala besar dan berbagai bidang usaha dengan konsep teknologi informasi serta layanan yang sesuai dengan kebutuhan.
+
+PT.Sintech Berkah Abadi adalah salah satu dari penyedia solusi perangkat lunak di pasar global, memberikan solusi bisnis dan berteknologi tinggi berbasis layanan untuk para pelanggan yang tersebar di seluruh Indonesia.
+</p>
+                </div>
+            </div>
+
+            <p>PT. Sintech Berkah Abadi memiliki tim yang kuat dengan ukuran pelaksanaan proyek besar dan mengerahkan seluruh kemampuanya untuk memberikan pelayanan yang berkualitas tinggi kepada pelanggan. Salah satu kunci keberhasilan kami adalah adaptasi kami terhadap berbagai macam dan aneka kebutuhan akan sistem informasi komputer sehingga menghasilkan Manajemen Kualitas, Manajemen Proyek, kebutuhan Infrastruktur, dan lainnya dengan sempurna untuk memberikan kepuasan kepada para pelanggan kami.
+</p><p>
+Memegang portfolio yang terdiri dari produk, proyek dan layanan konsultasi, kami membuat produk inovatif dan menawarkan solusi terkini untuk permintaan pasar yang dinamis dan lingkungan digital yang dinamis.</p>
+        </div>
+        <br>
+
         <div class="container">
             <div class="goals row g-0">
                 <div class="col-md-3">

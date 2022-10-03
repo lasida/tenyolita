@@ -23,9 +23,9 @@
                 </div>
             </div>
         </div>
-        <div class="service-wrapper">
-            <div class="more__service">SELENGKAPNYA</div>
-            <div class="container">
+        <div id="service" class="service-wrapper">
+            <a href="#service" class="more__service">SELENGKAPNYA</a>
+            <div  class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-10">
                         <div class="services row g-4 justify-content-center">

@@ -8,7 +8,7 @@
                     <div class="hero__caption">
                         <h2><strong>PT. SINTECH BERKAH ABADI</strong></h2>
                         <p><b>IT MAKES EASIER YOUR WORKS</b></p>
-                        <a href="/" class="btn btn-primary">Layanan Kami</a>
+                        <a href="/pelayanan" class="btn btn-primary">Layanan Kami</a>
                     </div>
                 </div>
                 <div class="col-md-6">

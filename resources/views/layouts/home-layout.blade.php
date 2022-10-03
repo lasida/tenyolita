@@ -504,16 +504,16 @@
                         <h5>SOSIAL MEDIA</h5>
                         <ul class="social-links">
                             <li>
-                                <a href="/" class="social--facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://facebook.com/sintechberkahabadi" class="social--facebook"><i class="fab fa-facebook-f"></i></a>
                             </li>
                             <li>
-                                <a href="/" class="social--linkedin"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://id.linkedin.com/in/sintechberkahabadi" class="social--linkedin"><i class="fab fa-linkedin"></i></a>
                             </li>
                             <li>
-                                <a href="/" class="social--instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="https://id.pinterest.com/sintechabadi" class="social--pinterest"><i class="fab fa-pinterest"></i></a>
                             </li>
                             <li>
-                                <a href="/" class="social--twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="https://twitter.com/sintechabadi" class="social--twitter"><i class="fab fa-twitter"></i></a>
                             </li>
                         </ul>
                     </div>

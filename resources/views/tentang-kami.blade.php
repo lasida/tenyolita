@@ -12,7 +12,7 @@
         <div class="container" style="text-align:center;margin-bottom:30px;padding:20px;margin-top:40px">
             <h3>Portofolio Kami</h3>
             <h4 style="font-weight:400;"> Aplikasi Sasaran Kinerja Pegawai (SKP) Online, Sistem Informasi Manajemen Kepegawaian (SIMPEG), Aplikasi Arsip Pariwisata, Jasa Pembuatan Aplikasi Sistem Informasi, Aplikasi E-Goverment, Pengarsipan, Sistem Pendaftaran Online (PMB).</p>
-            <a href="#projects" style="margin-top:20px" class="btn btn-primary">Temukan Lebih Lengkap</a>
+            <a href="/portofolio" style="margin-top:20px" class="btn btn-primary">Temukan Lebih Lengkap</a>
 
             <img src={{asset("img/portofolio.png")}} srcset={{asset("img/portofolio.png")}} alt="portofolio" style="margin-top:40px"/>
         </div>
@@ -130,7 +130,7 @@ Memegang portfolio yang terdiri dari produk, proyek dan layanan konsultasi, kami
                     Komitmen Kami Memberikan Yang Terbaik
                     <span>Kami Perusahaan Pertama Yang Memberikan Layanan Terpadu Pada Teknologi</span>
                 </h2>
-                <a href="/" class="btn btn-outline-light">Hubungi Kami</a>
+                <a href="/kontak" class="btn btn-outline-light">Hubungi Kami</a>
             </div>
         </div>
     </section>

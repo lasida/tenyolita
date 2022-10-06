@@ -6,6 +6,13 @@
 
     <title>PT Sintech Berkah Abadi</title>
 
+ 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+<!-- Jquery -->
+<script src="{{ asset("js/vendor/jquery-3.6.0.min.js") }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -539,8 +546,8 @@
     </footer>
     <!-- End Footer -->
 </div>
-<!-- Jquery -->
-<script src="{{ asset("js/vendor/jquery-3.6.0.min.js") }}"></script>
+
+
 <!-- End Jquery -->
 <!-- Bootstrap 5 Javascript -->
 <script src="{{ asset("js/vendor/bootstrap.bundle.min.js") }}"></script>
